@@ -24,7 +24,7 @@ request.addEventListener('load', function() {
     postItems = result.Search.map((movie) => {
 
         return `<div class="wrapper">
-                    <img class="poster" src="${movie.Poster}"  alt="movie" style="width:20%"/>
+                    <img class="image" src="${movie.Poster}" />
                     <b>${movie.Title}</b>
         <button data-movieId = '${movie.title}' onClick = "showMovieDetails(this)">Show Detail</button>
         </div>`
