@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.weather {
+    text-align: center;
+    margin: 80px;
+}
+
+#inputValue {
+    height: 50px;
+    width: 600px;
+    background-color: wheat;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 3px;
+    padding: 10px 10px;
+}
+
+#submiteButton {
+    height: 50px;
+    width: 100px;
+    background-color: wheat;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 3px;
+}
+
+.display {
+    text-align: center;
+}
